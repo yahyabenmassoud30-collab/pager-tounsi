@@ -1,0 +1,21 @@
+# Build / IDE
+*.iml
+.gradle/
+build/
+.idea/
+captures/
+.externalNativeBuild
+.cxx
+.DS_Store
+local.properties
+*.apk
+*.aab
+
+# Secrets - NEVER commit these
+keystore.properties
+*.jks
+*.keystore
+app/google-services.json
+firebase-admin-key.json
+*-admin-key.json
+*service-account*.json
